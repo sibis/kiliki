@@ -22,3 +22,5 @@ returns the tokens as its output. It has only one function called `NextToken()` 
 REPL
 The `Read Eval Print Loop` is the interactive mode which is common for the interpreted languages like python & javascript is also implemented in kiliki too. The source code for the REPL can be found inside, repl/repl.go
 
+You can try out the repl directly on your terminal by running, `go run main.go` from parent directory.
+It will allow the interactive mode to play around. Any statement that gets passed to it will be printed as token in the terminal.
